@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="temperature-convertor">
+        <div class="container">
+            <div class="heading">
+                <h1> Temperature Convertor</h1>
+            </div>
+            <div class="calculation">
+                <div class="deg ">
+                    <p>Degrees</p>
+                    <input id="degree" type="number">
+                </div>
+                <div class="type">
+                    <p>Type</p>
+                    <select name="type1" id="type1">
+                        <option value="celcius">Celcius</option>
+                        <option value="farenheit">Farenheit</option>
+                    </select>
+                </div>
+                <div class="result ">
+                    <p>Result</p>
+                    <p id="output"></p>
+                </div>
+            </div>
+            <div class="button">
+                <div class="btn" id="btn">Convert</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

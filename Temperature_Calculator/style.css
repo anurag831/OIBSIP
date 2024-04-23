@@ -1,0 +1,78 @@
+body{
+    margin-top: 100px;
+}
+
+.temperature-convertor{
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(224, 220, 220);
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+p{
+    font-size:x-large;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+#output{
+    font-size: large;
+    min-height: 21px;
+    border-bottom: 2px solid black;
+}
+
+.calculation{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 45px;
+    /* background-color: red; */
+}
+
+#degree{
+    min-height: 21px;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+#type1{
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 2px solid black;
+    width: 170px;
+    font-size: large;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btn{
+    display: flex;
+    background-color: #0ba6ff;
+    height: 47px;
+    width: 29vw;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    cursor: pointer;
+}
